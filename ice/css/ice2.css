@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(118, 116, 116);
+    margin: 0 auto;
+}
+
+.round{
+    border: 10px solid rgb(50, 49, 49);
+    border-radius: 50%;
+    width: 20%;
+    margin: 30px 35px 30px 95px;
+}
+
+.full{
+    width: 100%;
+}
+
+.center{
+    margin: 0 auto;
+}
