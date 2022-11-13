@@ -234,6 +234,70 @@ main section img{
     grid-row: 2/3;
 }
 
+ /*
+ Page 2 css 
+ */ 
+.page2grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.heading{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.river1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    grid-gap: 1em;
+    border: 10px solid black;
+    width: 80%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px gray;
+    margin: auto 0;
+}
+
+.river1word{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.river2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 10px solid black;
+    width: 80%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px gray;
+    margin: auto 0;
+}
+
+.river2word{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.river3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border: 10px solid black;
+    width: 80%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px gray;
+    margin: auto 0;
+}
+
+.river3word{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
