@@ -36,12 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.5;
 }
 
-.card{
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .logo{
     width: 80px;
@@ -110,6 +105,7 @@ footer p a:hover{
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     grid-gap: 20px;
+    align-items: center;
 }
 
 .pink{
@@ -172,9 +168,21 @@ footer p a:hover{
 .color{
    color: #2d3047;
    text-decoration: none;
+   padding: 1em;
+   background-color: bisque;
 }
 
-.color :hover{
+.color:hover{
     background-color: #e84855;
     color: white;
+    padding: 1em;
 }
+
+.card{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #2d3047;
+}
+    
