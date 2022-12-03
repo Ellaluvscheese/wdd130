@@ -190,6 +190,75 @@ footer p a:hover{
     width: 20%;
 }
 
-#tall{
+.tall{
     line-height: 30px;
+}
+
+#dance{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #2d3047;
+}
+
+#dancepara{
+    text-align: center;
+}
+
+#childhoodgrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.title{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+#yellowducks{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #2d3047;
+}
+
+#selfiducks{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #2d3047;
+    margin-top: 10px;
+}
+
+#stickducks{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #2d3047;
+}
+
+
+#bestiepara{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+#dancingcolor{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background-color: #e84855;
+    padding-top: 5%;
 }
