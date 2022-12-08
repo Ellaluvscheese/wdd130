@@ -345,3 +345,13 @@ footer p a:hover{
     grid-column: 3/5;
     grid-row: 6/7;
 }
+
+/* contact us */
+
+.color{
+    color: #FF9B71;
+}
+
+#padding{
+    padding-top: 10%;
+}
